@@ -16,6 +16,7 @@ const config: Config = {
     '!src/styles/**'
   ],
   modulePaths: ['<rootDir>/src/', '<rootDir>/.jest'],
+  moduleDirectories: ['node_modules', '<rootDir>'],
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
   testPathIgnorePatterns: ['/node_modules/', '/.next/'],
   testMatch: [
